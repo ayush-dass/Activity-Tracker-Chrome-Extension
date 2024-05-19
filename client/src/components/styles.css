@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .scrollable {
+    max-height: 500px; /* Adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  #activityList div {
+    margin-bottom: 10px;
+    width: 500px;
+  }
+  
